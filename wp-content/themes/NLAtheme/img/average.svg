@@ -1,0 +1,17 @@
+<svg id="g249" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.752" height="38.752" viewBox="0 0 38.752 38.752">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path255" d="M0-682.665H38.752v38.752H0Z" transform="translate(0 682.665)" fill="#8c8d8f"/>
+    </clipPath>
+  </defs>
+  <g id="g251" transform="translate(0 0)">
+    <g id="g253" clip-path="url(#clip-path)">
+      <g id="g259" transform="translate(0 0)">
+        <path id="path261" d="M-321.957-623.913a19.4,19.4,0,0,1-19.376-19.376,19.4,19.4,0,0,1,19.376-19.376,19.4,19.4,0,0,1,19.376,19.376A19.4,19.4,0,0,1-321.957-623.913Zm0-36.481a17.125,17.125,0,0,0-17.105,17.105,17.125,17.125,0,0,0,17.105,17.105,17.125,17.125,0,0,0,17.105-17.105A17.125,17.125,0,0,0-321.957-660.394Z" transform="translate(341.333 662.665)" fill="#8c8d8f"/>
+      </g>
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.609" cy="1.609" r="1.609" transform="translate(12.139 13.114)" fill="#8c8d8f"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.609" cy="1.609" r="1.609" transform="translate(23.404 13.114)" fill="#8c8d8f"/>
+      <path id="Line_107" data-name="Line 107" d="M16.6.914H-.293A1.207,1.207,0,0,1-1.5-.293,1.207,1.207,0,0,1-.293-1.5H16.6A1.207,1.207,0,0,1,17.811-.293,1.207,1.207,0,0,1,16.6.914Z" transform="translate(11.155 25.878)" fill="#8c8d8f"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,514 @@
+/*
+Theme Name: NLA
+Author: Tahaluf
+Version: 1.0
+Template: twentytwenty
+*/
+
+@import url("css/style.min.css");
+
+
+.chatbot-area {
+    position: fixed;
+    border: 0;
+    bottom: 15px;
+    right: 85px;
+    width: 350px;
+    z-index: 999;
+    transform: translate(0%, 110%);
+    transition: all 0.7s;
+}
+
+.chatbot-header img {
+    max-width: 100px;
+}
+
+.chatbot-active {
+    transform: translate(0%, 0%);
+}
+
+#chat {
+    border-radius: 10px;
+    margin: 0;
+    border: 0;
+    width: 100% !important;
+    /*.webchat--css-ncvyo-j7qwjs.webchat--css-ncvyo-1egyv3b {
+        background-color: var(--third) !important;
+    }
+    div {
+        &:focus-visible {
+            outline: 0px !important;
+        }
+    }
+    &:focus-visible {
+        outline: 0px !important;
+    }*/
+}
+
+.grecaptcha-badge {
+    display: none !important;
+}
+
+.wpcf7-submit,
+.resetBTN {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.contactUsFormSection .contactForm .resetBTN:hover {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
+
+.contactUsFormSection .contactForm .wpcf7-submit:hover {
+    background-color: var(--white) !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+}
+
+.no-data-found {
+    text-align: center;
+    font-weight: bold;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-color: #eaeaea;
+}
+
+.place_order:disabled {
+    opacity: 0.5;
+    cursor: grab;
+}
+
+.cart-empty {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.woocommerce-error {
+    background: none;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding: 5px !important;
+    border-top: none;
+    background-color: var(--third);
+    border-radius: 10px;
+    border: 2px solid var(--primary) !important;
+}
+
+.woocommerce-checkout ul.woocommerce-error li {
+    margin: 0;
+    padding: 2px 15px;
+    color: var(--primary);
+}
+
+.wpdevart_org_chart {
+    direction: ltr;
+}
+
+
+
+
+.latestNewsandComingEventsSection .owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.latestNewsandComingEventsSection .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--fourth);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.latestNewsandComingEventsSection .owl-dots .owl-dot.active {
+    background-color: var(--primary);
+}
+
+.latestNewsandComingEventsSection .owl-nav {
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.latestNewsandComingEventsSection .nav-button {
+    font-size: 16px;
+    margin: 5px;
+    background-color: var(--primary);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.wc_payment_method input.input-radio[name=payment_method]+label::before {
+    content: "Payment Method";
+    width: fit-content !important;
+    height: fit-content !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #fff0 !important;
+    border-radius: 100% !important;
+    transform: translateY(2px) !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+ul.wc_payment_methods.payment_methods.methods {
+    margin: 0px;
+    padding: 5px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.payment_method_invoice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 21px;
+    cursor: inherit;
+}
+
+#shipping_method {
+    padding: 0px !important;
+}
+
+#shipping_method li label {
+    display: block;
+    white-space: nowrap;
+}
+
+.woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table td,
+.woocommerce-checkout form #order_review .woocommerce-checkout-review-order-table th,
+.woocommerce-checkout form #order_review_heading .woocommerce-checkout-review-order-table td,
+.woocommerce-checkout form #order_review_heading .woocommerce-checkout-review-order-table th {
+    padding: 3px 10px !important;
+    text-align: start !important;
+}
+
+.wc_payment_method input.input-radio[name=payment_method]+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: inherit;
+}
+
+
+
+.product-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custom-product {
+    width: 18%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .custom-product {
+        width: 11%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sameSize {
+        min-height: 586px;
+        max-height: 629px;
+        overflow-y: auto;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1000px) {
+    .custom-product {
+        width: 23%;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1600px) {
+    .custom-product {
+        width: 18%;
+    }
+
+    .product-wrapper .custom-product:last-child {
+        display: none;
+    }
+}
+
+@media (min-width: 975px) and (max-width: 1300px) {
+    .custom-product {
+        width: 23%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .custom-product {
+        width: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .custom-product {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-product {
+        width: 30%;
+    }
+
+    .chatbot-active {
+        transform: translate(18%, 0%);
+        z-index: 999999999;
+    }
+
+    .woocommerce table.shop_table_responsive tr td,
+    .woocommerce-page table.shop_table_responsive tr td {
+        text-align: start !important;
+    }
+
+
+
+    #site-content #shipping_method li {
+        justify-content: flex-start !important;
+    }
+
+    site-content #shipping_method li {
+        justify-content: flex-start !important;
+    }
+
+    .woocommerce-cart-form .quantity input {
+        width: 100% !important;
+
+    }
+
+    .woocommerce table.shop_table_responsive tr td::before,
+    .woocommerce-page table.shop_table_responsive tr td::before {
+        float: none !important;
+    }
+
+    .woocommerce table.shop_table_responsive tr,
+    .woocommerce-page table.shop_table_responsive tr {
+        margin: 0px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-product {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-product {
+        width: 100%;
+    }
+}
+
+
+
+.hallsGalleryGroup .owl-nav,
+.hallsGalleryGroup .owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.hallsGalleryGroup .latestNewsandComingEventsSection .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--fourth);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.hallsGalleryGroup .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: var(--fourth);
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.hallsGalleryGroup .nav-button {
+    font-size: 16px;
+    margin: 5px;
+    background-color: var(--primary);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+#site-header .header-titles-wrapper {
+    justify-content: center;
+}
+
+#site-header .header-titles-wrapper .custom-logo {
+    max-width: 140px !important;
+
+}
+
+a.custom-logo-link {
+    display: flex;
+}
+
+.lb-data .lb-details {
+    text-align: start !important;
+}
+
+.CardItem.thirdBody.shadow-sm.border-radius-5.overflow-hidden {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.site-description {
+    display: none;
+}
+
+
+
+.fi-x {
+    background: url('img/x-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+
+.fi-threads {
+    background: url('img/threads-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+
+.fi-tiktok {
+    background: url('img/tiktok-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+.fi-youtube {
+    background: url('img/youtube-app-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+.fi-linkedin {
+    background: url('img/linkedin-app-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+.fi-instagram {
+    background: url('img/instagram-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+
+.fi-facebook {
+    background: url('img/facebook-app-round-white-icon.svg');
+    width: 28px !important;
+    height: 28px;
+    padding: 5px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-top: 2px;
+    transition: all 0.3s;
+}
+
+.fi-x:hover,
+.fi-threads:hover,
+.fi-facebook:hover,
+.fi-tiktok:hover,
+.fi-youtube:hover,
+.fi-linkedin:hover,
+.fi-instagram:hover {
+    background-color: var(--fourth);
+}
+
+.virtualExhibition a {
+    color: var(--primary) !important;
+    font-weight: 700 !important;
+}
